@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <!--<TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:textSize="80sp"
+        android:layout_gravity="center_horizontal"/>
+    WE WILL USE IMAGE FOR DICE ROLL APP THATS WHY WE USE IMAGE VIEW HERE
+    -->
+
+    <ImageView
+        android:id="@+id/dice_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_1"/><!--android src line will show empty dice when app runs first
+        TOOLS AND ANDROID IS CALLED NAMESPACE
+        TOOLS NAMESPACE IS USED TO CREATE DUMMY CONTENT FOR PREVIEW PAGE AND REMOVES WHEN COMPILE
+        address of image and it will change dynamically frim 1-6-->
+
+
+
+    <Button
+        android:id="@+id/roll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROLL"
+        android:textSize="50sp"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+</LinearLayout>
